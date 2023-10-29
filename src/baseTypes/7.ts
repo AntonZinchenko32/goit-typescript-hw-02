@@ -17,5 +17,3 @@ function isWeekend(day: Days): boolean {
   if (day === 'sun' || 'sat') return true
   else return false
 }
-
-console.log(isWeekend(Days.Sunday)); 
